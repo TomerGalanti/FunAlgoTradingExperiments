@@ -11,7 +11,7 @@ pip install pandas numpy, pandas, yfinance, matplotlib
 
 ```
 
-Usage
+## Usage
 
 Backtesting a Single Stock
 The backtest function performs a backtest on a single stock using a specified trading strategy. It calculates the performance of the strategy over a given time period.
@@ -23,7 +23,9 @@ start_date: The start date of the backtest period in YYYY-MM-DD format.
 end_date: The end date of the backtest period in YYYY-MM-DD format.
 strategy_fn: The trading strategy function to use.
 
-Indicators
+Example: backtest_sp500('2019-01-01', '2024-01-01', moving_average_strategy)
+
+## Indicators
 
 The framework includes several technical indicators that can be added to the stock data:
 
