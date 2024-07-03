@@ -18,10 +18,10 @@ The backtest function performs a backtest on a single stock using a specified tr
 
 Parameters
 
-stock_name: The ticker symbol of the stock to backtest.
-start_date: The start date of the backtest period in YYYY-MM-DD format.
-end_date: The end date of the backtest period in YYYY-MM-DD format.
-strategy_fn: The trading strategy function to use.
+stock_name: The ticker symbol of the stock to backtest. \
+start_date: The start date of the backtest period in YYYY-MM-DD format. \
+end_date: The end date of the backtest period in YYYY-MM-DD format. \
+strategy_fn: The trading strategy function to use. \
 
 Example: backtest_sp500('2019-01-01', '2024-01-01', moving_average_strategy)
 
