@@ -1,6 +1,6 @@
 # Stock Backtesting Framework
 
-This project provides a generic framework for backtesting trading strategies on historical stock data. It includes functions to fetch data, apply indicators, and execute strategies on both individual stocks and the S&P 500 index.
+This project provides a generic framework for backtesting trading strategies on historical stock data from Yahoo Finance. It includes functions to fetch data, apply indicators, and execute strategies on both individual stocks and the S&P 500 index.
 
 ## Installation
 
